@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 100%;
+}
+article{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav{
+    background-color: blueviolet;
+}
+main, aside, article{
+    border: 1px solid white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    padding: 10px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: wheat;
+}
+aside, article{
+    padding: 10px;
+}
+@media screen and (max-width:800px){
+    main, article,nav ul{
+        flex-direction: column;
+    }
+    .bal{
+        order: 1;
+    }
+    .jobb{
+        order:2;
+    }
+    
+}

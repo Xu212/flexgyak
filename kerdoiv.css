@@ -1,0 +1,11 @@
+.kerdes{
+    display: flex;
+    justify-content: space-between;
+
+}
+form{
+    width: 300px;
+}
+label{
+    order: 1;
+}
